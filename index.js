@@ -28,7 +28,7 @@ const express = require("express");
 const app = express();
 
 // --- อ่านค่าจาก Secrets ของ Replit ---
-const token = process.env.token;
+const token = process.env.DISCORD_TOKEN;
 const guildId = process.env.guildId;
 const controlChannelId = process.env.controlChannelId;
 const logChannelId = process.env.logChannelId;

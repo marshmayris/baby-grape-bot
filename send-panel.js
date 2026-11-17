@@ -3,7 +3,7 @@
 const { Client, GatewayIntentBits, ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder } = require('discord.js');
 
 // --- แก้ไขตรงนี้: อ่านค่าจาก Secrets โดยตรง ---
-const token = process.env.token;
+const token = process.env.DISCORD_TOKEN;
 const controlChannelId = process.env.controlChannelId;
 
 // ตรวจสอบว่ามีค่าที่จำเป็นใน Secrets หรือไม่

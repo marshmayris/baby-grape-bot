@@ -1,8 +1,8 @@
 require('dotenv').config();
 const { REST, Routes, SlashCommandBuilder } = require("discord.js");
-const token = process.env.token;
+const token = process.env.DISCORD_TOKEN;
 const guildId = process.env.guildId;
-const clientId = process.env.clientId; // **สำคัญ!** ต้องเพิ่ม clientId ใน Secrets ด้วย
+const clientId = "1572295593534034182";
 
 const commands = [
     new SlashCommandBuilder()
